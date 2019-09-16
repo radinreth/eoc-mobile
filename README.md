@@ -1,2 +1,2 @@
-# eoc-mobile-app
+# eoc-mobile
 EOC Guideline Mobile App

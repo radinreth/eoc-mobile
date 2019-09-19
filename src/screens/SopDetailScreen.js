@@ -7,6 +7,9 @@ const SopDetailScreen = props => {
   return (
     <View style={styles.screen}>
       <Text>{sopGuide.description}</Text>
+      {
+        sopGuide.items.map(item => <Text key={item.id}>{item.desc}</Text>)
+      }
     </View>
   );
 };
